@@ -1,0 +1,55 @@
+:root {
+  --borderRadius: 36px;
+  --border: 0.8px solid rgb(152, 149, 149);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: rgb(245, 245, 245);
+  font-family: fantasy;
+}
+
+.container {
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+h2 {
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  background-color: #feee7d;
+  color: rgb(39, 38, 38);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+button {
+  background-color: #28df89;
+  border: var(--border);
+  color: #ffffff;
+  font-size: 1rem;
+  padding-inline: 2rem;
+  padding-block: 0.6rem;
+  border-radius: var(--borderRadius);
+  cursor: pointer;
+}
+
+.color-box {
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  width: 600px;
+  height: 300px;
+  background-color: #f32c52;
+}
